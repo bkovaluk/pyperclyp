@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyperclyp"
+version = "0.1.0"
+description = "GUI using python pyperclip"
+authors = ["Brad Kovaluk <bkovaluk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyperclip = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
